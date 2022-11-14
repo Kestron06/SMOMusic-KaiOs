@@ -1,0 +1,41 @@
+{
+  "version": "1.0.0",
+  "name": "SMOMusic KaiOs",
+  "short_name": "SMOMusic",
+  "description": "Plays music from Super Mario Odyssey based on time of day or night",
+  "subtitle": "Mario Odyssey Music App",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/img/icons/SMOMusic16.png",
+    "48": "/img/icons/SMOMusic48.png",
+    "56": "/img/icons/SMOMusic56.png",
+    "60": "/img/icons/SMOMusic60.png",
+    "112": "/img/icons/SMOMusic112.png",
+    "128": "/img/icons/SMOMusic128.png"
+  },
+  "developer": {
+    "name": "Kestron",
+    "url": "http://SMOMusic.github.io"
+  },
+  "type": "web",
+  "permissions": {},
+  "installs_allowed_from": [
+    "*"
+  ],
+  "orientation": ["portrait-primary"],
+  "locales": {
+    "en-US":{
+      "name": "SMOMUsic KaiOs",
+       "subtitle":"Mario Odyssey Music App",
+       "description":"An app to play music from the game Super Mario Odyssey based on what time of day or night it is."
+    }
+  },
+  "default_locale": "en-US",
+  "categories":[
+    "games",
+    "entertainment"
+  ],
+  "permissions": {
+    "wifidata":{}
+  }
+}
